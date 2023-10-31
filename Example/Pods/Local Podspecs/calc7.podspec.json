@@ -18,5 +18,16 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "calc7/Classes/**/*"
+  "source_files": "calc7/Classes/**/*",
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "i386",
+    "HEADER_SEARCH_PATHS": "$(inherited) \"${PODS_ROOT}/LibTorch/install/include\""
+  },
+  "static_framework": true,
+  "dependencies": {
+    "LibTorch": [
+      "~> 1.13.0.1"
+    ]
+  }
 }
