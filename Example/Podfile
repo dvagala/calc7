@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'calc7_Example' do
+  pod 'calc7', :path => '../'
+
+  target 'calc7_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
