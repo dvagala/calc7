@@ -1,0 +1,6 @@
+framework module calc7 {
+  umbrella header "calc7-umbrella.h"
+
+  export *
+  module * { export * }
+}

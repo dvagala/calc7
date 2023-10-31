@@ -1,0 +1,22 @@
+{
+  "name": "calc7",
+  "version": "0.1.0",
+  "summary": "A short description of calc7.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Dominik Vagala/calc7",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Dominik Vagala": "d.vagala@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Dominik Vagala/calc7.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "calc7/Classes/**/*"
+}

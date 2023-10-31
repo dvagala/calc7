@@ -1,0 +1,16 @@
+PODS:
+  - calc7 (0.1.0)
+
+DEPENDENCIES:
+  - calc7 (from `../`)
+
+EXTERNAL SOURCES:
+  calc7:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  calc7: 9d196f7181a36488e4e09d3fa2b5826fd945b684
+
+PODFILE CHECKSUM: 872ce3061d45a088756d58e4af91ff7cac819674
+
+COCOAPODS: 1.14.2
